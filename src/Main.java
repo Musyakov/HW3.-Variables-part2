@@ -122,7 +122,7 @@ public class Main {
         double denisAnnualSalaryGrowth = (denisSalary2023 - denisSalary2022) * 12;
         double khristinaAnnualSalaryGrowth = (khristinaSalary2023 - khristinaSalary2022) * 12;
         System.out.println("Masha's monthly salary now is " + mashaSalary2023 + " rubles. Her annual income's increased by " + mashaAnnualSalaryGrowth + " rubles");
-        System.out.println("Denis's monthly salary now is " + denisSalary2023 + " rubles. His annual income's increased by " + denisAnnualSalaryGrowth + " rubles");
+        System.out.println("Den's monthly salary now is " + denisSalary2023 + " rubles. His annual income's increased by " + denisAnnualSalaryGrowth + " rubles");
         System.out.println("Khristina's monthly salary now is " + khristinaSalary2023 + " rubles. Her annual income's increased by " + khristinaAnnualSalaryGrowth + " rubles");
     }
 }
