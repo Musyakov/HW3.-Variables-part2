@@ -47,9 +47,9 @@ public class Main {
         byte studentsLydmilla = 23;
         System.out.println("There are " + studentsLydmilla + " students at Lydmilla's class.");
         byte studentsAnna = 27;
-        System.out.println("There are " + studentsAnna + " students at Anna's class");
+        System.out.println("There are " + studentsAnna + " students at Anna's class.");
         byte studentsEkaterina = 30;
-        System.out.println("There are " + studentsEkaterina + " students at Ekaterina's class");
+        System.out.println("There are " + studentsEkaterina + " students at Ekaterina's class.");
         short paperPurchased = 480;
         System.out.println(paperPurchased + " pieces of paper are purchased");
         int paperForEachStudent = paperPurchased / (studentsAnna + studentsEkaterina + studentsLydmilla);
