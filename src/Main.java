@@ -45,7 +45,7 @@ public class Main {
     public static void task3 () {
         System.out.println("Задача 3");
         byte studentsLydmilla = 23;
-        System.out.println("There are " + studentsLydmilla + " students at Lydmilla's class");
+        System.out.println("There are " + studentsLydmilla + " students at Lydmilla's class.");
         byte studentsAnna = 27;
         System.out.println("There are " + studentsAnna + " students at Anna's class");
         byte studentsEkaterina = 30;
