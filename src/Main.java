@@ -79,7 +79,7 @@ public class Main {
         byte whitePaintConsumption = 2;
         System.out.println("White paint consumption is " + whitePaintConsumption + " cans for every class");
         byte brownPaintConsumption = 4;
-        System.out.println("Brown paint consumption is " + brownPaintConsumption + " cans for every class");
+        System.out.println("Brown paint consumption is " + brownPaintConsumption + " cans for every class.");
         int classesPainted = totalPaintNeed / (whitePaintConsumption + brownPaintConsumption);
         int whitePaintUsed = whitePaintConsumption * classesPainted;
         int brownPaintUsed = brownPaintConsumption * classesPainted;
