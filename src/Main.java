@@ -88,12 +88,12 @@ public class Main {
     public static void task6 () {
         System.out.println("Задача 6");
         byte bananaAmount = 5;
-        short bananaWeight = 200;
+        short bananaWeight = 80;
         byte milkAmountOfHundred = 2;
-        byte milkWeight = 4;
-        byte milkyIceCreamAmount = 80;
-        byte milkyIceCreamWeight = 105;
-        byte rawEggAmount = 100;
+        byte milkWeight = 105;
+        byte milkyIceCreamAmount = 2;
+        byte milkyIceCreamWeight = 100;
+        byte rawEggAmount = 4;
         byte rawEggWeight = 70;
         int totalWeight1 = bananaWeight * bananaAmount + milkWeight * milkAmountOfHundred + milkyIceCreamWeight * milkyIceCreamAmount + rawEggWeight * rawEggAmount;
         System.out.println("The total weight of the dish is " + totalWeight1 + " gram");
