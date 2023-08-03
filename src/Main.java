@@ -45,11 +45,11 @@ public class Main {
     public static void task3 () {
         System.out.println("Задача 3");
         byte studentsLydmilla = 23;
-        System.out.println("There are " + studentsLydmilla + " students at Lydmilla's class");
+        System.out.println("There are " + studentsLydmilla + " students at Lydmilla's class.");
         byte studentsAnna = 27;
-        System.out.println("There are " + studentsAnna + " students at Anna's class");
+        System.out.println("There are " + studentsAnna + " students at Anna's class.");
         byte studentsEkaterina = 30;
-        System.out.println("There are " + studentsEkaterina + " students at Ekaterina's class");
+        System.out.println("There are " + studentsEkaterina + " students at Ekaterina's class.");
         short paperPurchased = 480;
         System.out.println(paperPurchased + " pieces of paper are purchased");
         int paperForEachStudent = paperPurchased / (studentsAnna + studentsEkaterina + studentsLydmilla);
@@ -88,17 +88,17 @@ public class Main {
     public static void task6 () {
         System.out.println("Задача 6");
         byte bananaAmount = 5;
-        short bananaWeight = 200;
+        short bananaWeight = 80;
         byte milkAmountOfHundred = 2;
-        byte milkWeight = 4;
-        byte milkyIceCreamAmount = 80;
-        byte milkyIceCreamWeight = 105;
-        byte rawEggAmount = 100;
+        byte milkWeight = 105;
+        byte milkyIceCreamAmount = 2;
+        byte milkyIceCreamWeight = 100;
+        byte rawEggAmount = 4;
         byte rawEggWeight = 70;
         int totalWeight1 = bananaWeight * bananaAmount + milkWeight * milkAmountOfHundred + milkyIceCreamWeight * milkyIceCreamAmount + rawEggWeight * rawEggAmount;
-        System.out.println("The total weight of the dish is " + totalWeight1 + " gram");
+        System.out.println("The total weight of the dish is " + totalWeight1 + " gram.");
         float totalWeight2 = totalWeight1 / 1000f;
-        System.out.println("The total weight of the dish is " + totalWeight2 + " kilogram");
+        System.out.println("The total weight of the dish is " + totalWeight2 + " kilogram.");
          }
     public static void task7 () {
         System.out.println("Задача 7");
@@ -122,7 +122,7 @@ public class Main {
         double denisAnnualSalaryGrowth = (denisSalary2023 - denisSalary2022) * 12;
         double khristinaAnnualSalaryGrowth = (khristinaSalary2023 - khristinaSalary2022) * 12;
         System.out.println("Masha's monthly salary now is " + mashaSalary2023 + " rubles. Her annual income's increased by " + mashaAnnualSalaryGrowth + " rubles");
-        System.out.println("Denis's monthly salary now is " + denisSalary2023 + " rubles. His annual income's increased by " + denisAnnualSalaryGrowth + " rubles");
+        System.out.println("Den's monthly salary now is " + denisSalary2023 + " rubles. His annual income's increased by " + denisAnnualSalaryGrowth + " rubles");
         System.out.println("Khristina's monthly salary now is " + khristinaSalary2023 + " rubles. Her annual income's increased by " + khristinaAnnualSalaryGrowth + " rubles");
     }
 }
