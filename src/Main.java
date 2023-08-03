@@ -58,7 +58,7 @@ public class Main {
     public static void task4 () {
         System.out.println("Задача 4");
         byte machineProductivity = 16/2;
-        System.out.println("Machine's productivity is " + machineProductivity + " bottles in a minute");
+        System.out.println("Machine's productivity is " + machineProductivity + " bottles in a minute.");
         byte period1 = 20;
         int machinePerformance1 = machineProductivity * period1;
         System.out.println("Machine performance in 20 minutes is " + machinePerformance1 + " bottles");
