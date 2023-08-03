@@ -96,9 +96,9 @@ public class Main {
         byte rawEggAmount = 4;
         byte rawEggWeight = 70;
         int totalWeight1 = bananaWeight * bananaAmount + milkWeight * milkAmountOfHundred + milkyIceCreamWeight * milkyIceCreamAmount + rawEggWeight * rawEggAmount;
-        System.out.println("The total weight of the dish is " + totalWeight1 + " gram");
+        System.out.println("The total weight of the dish is " + totalWeight1 + " gram.");
         float totalWeight2 = totalWeight1 / 1000f;
-        System.out.println("The total weight of the dish is " + totalWeight2 + " kilogram");
+        System.out.println("The total weight of the dish is " + totalWeight2 + " kilogram.");
          }
     public static void task7 () {
         System.out.println("Задача 7");
